@@ -1,0 +1,8 @@
+.article {
+    max-width: 70%;
+    margin: 0 auto 8rem auto;
+}
+
+.article * {
+    font-size: 1rem;
+}

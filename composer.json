@@ -1,0 +1,16 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "core/"
+        }
+    },
+    "name": "root/search-engine",
+    "authors": [
+        {
+            "name": "user",
+            "email": "user@user.local"
+        }
+    ],
+    "require": {}
+}

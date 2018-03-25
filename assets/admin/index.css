@@ -1,0 +1,33 @@
+.admin-panel {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+.admin-panel > * {
+    flex-basis: 50%;
+}
+
+.admin-panel__articles h2,
+.admin-panel__users h2 {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.user-list {
+    margin-top: 2rem;
+}
+
+.user-list__item {
+    display: flex;
+    justify-content: space-around;
+    align-content: left;
+    padding: 0 0 1rem 0;
+    border-bottom: 1px dotted grey;
+}
+
+.user-list__item li,
+.add-link {
+    font-size: 1rem;
+}
